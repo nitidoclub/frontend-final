@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('/fonts/PPNeueMontreal-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Memesique';
+  src: url('/fonts/Memesique-Regular.otf') format('opentype');
+}
+body {
+  @apply bg-secondary text-primary font-sans;
+}
